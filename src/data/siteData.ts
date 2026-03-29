@@ -16,16 +16,16 @@ export const PROFILE = {
   tagline: { en: "Turning AI capability into real-world product impact", zh: "用 AI 能力创造真实的产品价值" } as Bilingual,
   bio: {
     en: [
-      "5 years as a product manager in the tech industry, leading multiple 0-to-1 product launches. Managed full product lifecycles — from market analysis and product definition to coordinating 10+ cross-functional teams through delivery.",
-      "Power user of Claude Code (60+ hours/week), with a strong grasp of different models' capabilities and limitations. Quickly identifies the right tool for each business problem and ships working solutions fast.",
-      "Independently built 20+ digital products with AI tools (web apps, iOS apps, WeChat mini-apps), including a CES exhibition app serving 3,000+ international users.",
-      "M.S. from UT Austin, focused on AI. Since then, kept building deep AI product expertise — from LLM-powered recommendation systems and AI customer service to a self-built Agent collaboration framework (Harness Engineering) — consistently turning AI capabilities into real business outcomes.",
+      "5 years as a product manager in tech, leading multiple products from zero to launch. I own the full lifecycle — market research, product definition, and cross-functional coordination through delivery.",
+      "I spend 60+ hours per week building in Claude Code and stay hands-on with the latest AI models and tools. I know where each model breaks down, so I can match the right capability to the right problem fast.",
+      "I've independently shipped 20+ digital products using AI tools — web apps, iOS apps, WeChat mini-apps — including a CES expo app that served 3,000+ international users.",
+      "Master's in AI from UT Austin (QS #38), working with large language models since GPT-3 and shipping AI products through every major wave since. Currently focused on Harness Engineering — building controlled autonomous environments for AI agents that minimize human intervention without sacrificing output quality. I break problems down from first principles, draw clear lines between what humans should do and what AI should do, and maximize leverage at every step.",
     ],
     zh: [
-      "5 年 IT 行业产品经理经验，主导过多次从 0 到 1 的产品落地。以 owner 身份全程推动——从前期市场判断、产品定义，到协调 10+ 跨职能团队完成交付。",
-      "日常深度使用 Claude Code（周均 60+ 小时），对不同模型的能力边界有敏锐判断。面对具体业务，能快速判断用什么工具、怎么用，高效解决问题。",
+      "5 年 IT 行业产品经理经验，主导多个产品从 0 到 1 的落地。以 owner 身份全程推动——从前期市场研究、产品定义，到协调跨职能团队完成交付。",
+      "日常深度使用 Claude Code（周均 60+ 小时），持续使用最前沿 AI 模型与工具，对不同模型能力边界保持敏感，快速为业务匹配最优方案。",
       "独立用 AI 工具开发了 20+ 数字产品（Web 应用、iOS 应用、小程序等），其中 CES 展会应用服务 3,000+ 海外用户。",
-      "UT Austin（QS #38）AI 方向硕士，之后持续深耕 AI 产品——从基于 LLM 的推荐系统、智能客服到自研 Agent 协作体系（Harness Engineering），一直在 AI 与业务结合的一线。",
+      "UT Austin（QS #38）AI 方向硕士，从 GPT-3 开始接触大语言模型，持续深耕 AI 产品实践，经历 AI 技术的多轮迭代。当前聚焦于为 Agent 搭建可控的自主运行环境（Harness Engineering），减少人工干预的同时保证产出质量。善于从第一性原理拆解问题，精准划定人机协作边界，最大化 AI 杠杆效率。",
     ],
   } as Bilingual<string[]>,
   email: "yunweiyan@yahoo.com",
