@@ -19,13 +19,13 @@ export const PROFILE = {
       "5 years as a product manager in tech, leading multiple products from zero to launch. I own the full lifecycle — market research, product definition, and cross-functional coordination through delivery.",
       "I spend 60+ hours per week building in Claude Code and stay hands-on with the latest AI models and tools. I know where each model breaks down, so I can match the right capability to the right problem fast.",
       "I've independently shipped 20+ digital products using AI tools — web apps, iOS apps, WeChat mini-apps — including a CES expo app that served 3,000+ international users.",
-      "Master's in AI from UT Austin (QS #38), working with large language models since GPT-3 and shipping AI products through every major wave since. Currently focused on Harness Engineering — building controlled autonomous environments for AI agents that minimize human intervention without sacrificing output quality. I break problems down from first principles, draw clear lines between what humans should do and what AI should do, and maximize leverage at every step.",
+      "M.S. in Information Technology & Management from UT Austin (program ranked top 3 nationally), focused on AI. Working with large language models since GPT-3, shipping AI products through every major wave since. Currently focused on Harness Engineering — building controlled autonomous environments for AI agents that minimize human intervention without sacrificing output quality. I break problems down from first principles, draw clear lines between what humans should do and what AI should do, and maximize leverage at every step.",
     ],
     zh: [
       "5 年 IT 行业产品经理经验，主导多个产品从 0 到 1 的落地。以 owner 身份全程推动——从前期市场研究、产品定义，到协调跨职能团队完成交付。",
       "日常深度使用 Claude Code（周均 60+ 小时），持续使用最前沿 AI 模型与工具，对不同模型能力边界保持敏感，快速为业务匹配最优方案。",
       "独立用 AI 工具开发了 20+ 数字产品（Web 应用、iOS 应用、小程序等），其中 CES 展会应用服务 3,000+ 海外用户。",
-      "UT Austin（QS #38）AI 方向硕士，从 GPT-3 开始接触大语言模型，持续深耕 AI 产品实践，经历 AI 技术的多轮迭代。当前聚焦于为 Agent 搭建可控的自主运行环境（Harness Engineering），减少人工干预的同时保证产出质量。善于从第一性原理拆解问题，精准划定人机协作边界，最大化 AI 杠杆效率。",
+      "UT Austin 信息技术与管理硕士（专业全美 Top 3），AI 方向。从 GPT-3 开始接触大语言模型，持续深耕 AI 产品实践，经历 AI 技术的多轮迭代。当前聚焦于为 Agent 搭建可控的自主运行环境（Harness Engineering），减少人工干预的同时保证产出质量。善于从第一性原理拆解问题，精准划定人机协作边界，最大化 AI 杠杆效率。",
     ],
   } as Bilingual<string[]>,
   email: "yunweiyan@yahoo.com",
@@ -414,7 +414,7 @@ export const EXPERIENCE = [
 export const CREDENTIALS = {
   education: [
     {
-      school: { en: "University of Texas at Austin (QS #38)", zh: "德克萨斯大学奥斯汀分校（QS #38）" } as Bilingual,
+      school: { en: "University of Texas at Austin (Top 3 Program)", zh: "德克萨斯大学奥斯汀分校（专业全美 Top 3）" } as Bilingual,
       degree: { en: "M.S. in Information Technology & Management", zh: "信息技术与管理 硕士" } as Bilingual,
       period: "2019.07 – 2020.05",
       gpa: "3.65 / 4.0",
