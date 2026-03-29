@@ -342,14 +342,16 @@ export const EXPERIENCE = [
     location: "Nanjing, China",
     highlights: {
       en: [
-        "Product line owner — led two AI wearable lines from 0 to 1, covering market analysis, product definition, cross-functional coordination, and go-to-market execution. Consumer product launched; medical-grade line advancing in parallel.",
-        "Designed a multi-agent AI collaboration system using Claude Code — standardizing prompt strategies, cross-validation workflows, and context management into a reusable framework adopted across the team.",
-        "Independently produced digital assets using AI tools — product brochures, exhibition posters, and web applications. Represented the company at CES, CMEF, and other international exhibitions.",
-        "Drove the product's AI dialogue module from requirements to production — including prompt strategy and conversation-flow design. Selected by leadership to lead internal AI training workshops for the product team.",
+        "Led two AI wearable product lines from zero to launch, owning market analysis, product definition, cross-functional coordination, and go-to-market execution. The consumer line has shipped; the medical-grade line is in parallel development.",
+        "Built an AI-powered workflow for DHF regulatory documentation: used Claude Code with multi-Agent parallel exploration to converge on optimal approaches, implemented Sub Agent cross-validation to reduce hallucination risk, and applied Context Engineering to keep context under 250K tokens. Cut single-document turnaround from 3 days to 30 minutes — passed regulatory review on the first submission.",
+        "Designed a personal Agent collaboration system on the Harness Engineering framework, codifying high-frequency workflows into standardized Skills across document generation, dev/test, knowledge management, and business decision-making — creating a self-iterating operational loop.",
+        "Independently designed and produced product brochures, trade-show collateral, and web applications using AI tools. Represented the company at CES, CMEF, and other international expos while staying current on industry and AI trends.",
+        "Drove the engineering-side build-out of an AI conversational module from requirements through production, including prompt strategy design and context engineering. Invited by department leadership to lead hands-on AI workshops for the broader team.",
       ],
       zh: [
         "产品线负责人，从 0 到 1 主导两条 AI 穿戴产品线，覆盖市场分析、产品定义、跨部门协调与上市推进，消费级产品已上市，医疗级产品线同步推进中。",
-        "搭建可复用的 Agent 协作系统：引入 Claude Code 到业务流程，通过多 Agent 并行探索、Sub Agent 交叉验证降低幻觉风险，文件化管理将上下文控制在 250K token 以下，迭代形成 CLAUDE.md + Skills 的可复用体系。",
+        "AI 工作流搭建：以 DHF 法规文档系统为例，使用 Claude Code 多 Agent 并行探索方案，高效收敛至最优路径；制定 Sub Agent 交叉验证流程降低幻觉风险；Context Engineering 将上下文控制在 250K token 以下，防止注意力衰减。单份文档产出时间从 3 个工作日压缩至半小时，一次性通过体系评审。",
+        "个人 Agent 协作系统：基于 Harness Engineering 框架，将工作中高频复用的流程沉淀为标准化 Skills，覆盖文档生产、开发测试、知识管理、商业决策等场景，形成可自主迭代的工作流闭环。",
         "通过 AI 工具独立完成产品宣传册、展会海报、Web 应用等数字产品的设计与制作。参加 CES、CMEF 等国内外展会，持续跟进行业与 AI 前沿趋势。",
         "参与产品 AI 对话模块从需求定义到落地的工程侧建设，包含 Prompt 策略设计与上下文工程。受部门负责人邀请为团队开展 AI 实践分享。",
       ],
