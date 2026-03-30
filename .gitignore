@@ -22,5 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-public/videos/*.mp4
-public/videos/lalaland.mp4
+# Large uncompressed videos (compressed versions are tracked)
+# public/videos/lalaland_original.mp4
