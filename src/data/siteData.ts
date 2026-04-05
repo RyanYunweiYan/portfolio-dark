@@ -16,13 +16,13 @@ export const PROFILE = {
   tagline: { en: "Turning AI capability into real-world product impact", zh: "用 AI 能力创造真实的产品价值" } as Bilingual,
   bio: {
     en: [
-      "5 years as a product manager in tech, leading multiple products from zero to launch. I own the full lifecycle — market research, product definition, and cross-functional coordination through delivery.",
-      "I spend 60+ hours per week building in Claude Code and stay hands-on with the latest AI models and tools. I know where each model breaks down, so I can match the right capability to the right problem fast.",
+      "5 years as a product manager in tech, leading multiple products from zero to launch. I believe collaborating with AI agents is as important as collaborating with people. I own the full lifecycle — market research, product definition, and cross-functional coordination through to delivery — and independently ship from concept to finished product using AI tools.",
+      "I spend 60+ hours per week building in Claude Code and stay hands-on with the latest AI models and tools. I know each model's strengths and limitations, so I can match the right capability to the right problem fast.",
       "I've independently shipped 20+ digital products using AI tools — web apps, iOS apps, WeChat mini-apps — including a CES expo app that served 3,000+ international users.",
-      "M.S. in Information Technology & Management from UT Austin (program ranked top 3 nationally), focused on AI. Working with large language models since GPT-3, shipping AI products through every major wave since. Currently focused on Harness Engineering — building controlled autonomous environments for AI agents that minimize human intervention without sacrificing output quality. I break problems down from first principles, draw clear lines between what humans should do and what AI should do, and maximize leverage at every step.",
+      "M.S. in Information Technology & Management from UT Austin (program ranked top 3 nationally), focused on AI. Working with large language models since GPT-3, shipping AI products through every major wave since then. Currently focused on Harness Engineering — designing controlled environments where AI agents operate autonomously with minimal human intervention and consistent output quality. I break problems down from first principles, draw clear lines between what humans should do and what AI should do, and maximize leverage at every step.",
     ],
     zh: [
-      "5 年 IT 行业产品经理经验，主导多个产品从 0 到 1 的落地。以 owner 身份全程推动——从前期市场研究、产品定义，到协调跨职能团队完成交付。",
+      "5 年 IT 行业产品经理经验，主导多个产品从 0 到 1 的落地。相信与 Agent 协作和与人协作同等重要。以 owner 身份全程推动——从前期市场研究、产品定义，到协调跨职能团队完成交付，通过 AI 工具独立完成从创意到成品的交付。",
       "日常深度使用 Claude Code（周均 60+ 小时），持续使用最前沿 AI 模型与工具，对不同模型能力边界保持敏感，快速为业务匹配最优方案。",
       "独立用 AI 工具开发了 20+ 数字产品（Web 应用、iOS 应用、小程序等），其中 CES 展会应用服务 3,000+ 海外用户。",
       "UT Austin 信息技术与管理硕士（专业全美 Top 3），AI 方向。从 GPT-3 开始接触大语言模型，持续深耕 AI 产品实践，经历 AI 技术的多轮迭代。当前聚焦于为 Agent 搭建可控的自主运行环境（Harness Engineering），减少人工干预的同时保证产出质量。善于从第一性原理拆解问题，精准划定人机协作边界，最大化 AI 杠杆效率。",
@@ -86,7 +86,7 @@ export const PROJECTS: Project[] = [
     title: { en: "CES 2026 Exhibition Web App", zh: "CES 2026 展会 Web 应用" },
     subtitle: { en: "Yuwell Medical — Full-Stack AI Application", zh: "鱼跃医疗 — 全栈 AI 应用" },
     description: {
-      en: "Independently designed and developed a full-stack web application for Yuwell Medical's CES 2026 booth. Enabling product consultation, user surveys, and lead capture for 3,000+ international attendees.",
+      en: "Independently designed and developed a full-stack web application for Yuwell Medical's CES 2026 booth, enabling product consultation, user surveys, and lead capture for 3,000+ international attendees.",
       zh: "独立设计开发鱼跃医疗 CES 2026 展台全栈 Web 应用，涵盖产品咨询、用户调研和数据采集，展会期间服务 3,000+ 参观者。",
     },
     details: {
@@ -313,12 +313,12 @@ export const AI_STACK = [
   {
     category: "Think",
     description: { en: "Research & reasoning", zh: "研究与推理" } as Bilingual,
-    tools: ["Claude Max", "ChatGPT Plus", "Gemini Pro", "Grok", "NotebookLM"],
+    tools: ["Claude Max", "ChatGPT Plus", "Gemini Pro", "Grok", "NotebookLM", "Plaud"],
   },
   {
     category: "Build",
     description: { en: "Development & automation", zh: "开发与自动化" } as Bilingual,
-    tools: ["Claude Code", "Cursor", "Lovable", "Manus Pro"],
+    tools: ["Claude Code", "Cursor", "Lovable", "Manus Pro", "Firecrawl"],
   },
   {
     category: "Create",
@@ -342,17 +342,17 @@ export const EXPERIENCE = [
     location: "Nanjing, China",
     highlights: {
       en: [
-        "Led two AI wearable product lines from zero to launch, owning market analysis, product definition, cross-functional coordination, and go-to-market execution. The consumer line has shipped; the medical-grade line is in parallel development.",
-        "Built an AI-powered workflow for DHF regulatory documentation: used Claude Code with multi-Agent parallel exploration to converge on optimal approaches, implemented Sub Agent cross-validation to reduce hallucination risk, and applied Context Engineering to keep context under 250K tokens. Cut single-document turnaround from 3 days to 30 minutes — passed regulatory review on the first submission.",
-        "Designed a personal Agent collaboration system on the Harness Engineering framework, codifying high-frequency workflows into standardized Skills across document generation, dev/test, knowledge management, and business decision-making — creating a self-iterating operational loop.",
-        "Independently designed and produced product brochures, trade-show collateral, and web applications using AI tools. Represented the company at CES, CMEF, and other international expos while staying current on industry and AI trends.",
-        "Drove the engineering-side build-out of an AI conversational module from requirements through production, including prompt strategy design and context engineering. Invited by department leadership to lead hands-on AI workshops for the broader team.",
+        "Leading two AI wearable product lines (smartwatch & smart ring) from zero to launch, owning market analysis, product definition, cross-functional coordination, and go-to-market execution. The consumer smart ring has reached the go-to-market stage; the medical-grade line is progressing in parallel.",
+        "Built an AI-powered workflow for DHF regulatory documentation — cut single-document turnaround from 3 days to 30 minutes and passed regulatory review on the first submission. Used Claude Code with multi-agent parallel exploration to converge on optimal approaches, implemented sub-agent cross-validation to reduce hallucination risk, and applied context engineering to keep context under 250K tokens.",
+        "Designed a personal agent collaboration system on the Harness Engineering framework, codifying recurring workflows into reusable, standardized skills across document generation, dev/test, knowledge management, and business decision-making — creating a self-improving workflow loop. Open-sourced the core modules, actively contributing tools and learnings to the community.",
+        "Independently designed and produced product brochures, trade-show collateral, and web applications using AI tools. Represented the company at CES, Hong Kong Electronics Fair, CMEF, AI Innovation Conference, and other international expos while staying current on industry and AI trends.",
+        "Drove development of an AI conversational module from requirements through production, including prompt strategy design and context engineering. Invited by department leadership to lead hands-on AI workshops for the broader team.",
       ],
       zh: [
-        "产品线负责人，从 0 到 1 主导两条 AI 穿戴产品线，覆盖市场分析、产品定义、跨部门协调与上市推进，消费级产品已上市，医疗级产品线同步推进中。",
+        "产品线负责人，从 0 到 1 主导智能手表、智能戒指两条产品线，覆盖市场分析、产品定义、跨部门协调与上市推进，消费级智能戒指已至上市阶段，医疗级产品线同步推进中。",
         "AI 工作流搭建：以 DHF 法规文档系统为例，使用 Claude Code 多 Agent 并行探索方案，高效收敛至最优路径；制定 Sub Agent 交叉验证流程降低幻觉风险；Context Engineering 将上下文控制在 250K token 以下，防止注意力衰减。单份文档产出时间从 3 个工作日压缩至半小时，一次性通过体系评审。",
-        "个人 Agent 协作系统：基于 Harness Engineering 框架，将工作中高频复用的流程沉淀为标准化 Skills，覆盖文档生产、开发测试、知识管理、商业决策等场景，形成可自主迭代的工作流闭环。",
-        "通过 AI 工具独立完成产品宣传册、展会海报、Web 应用等数字产品的设计与制作。参加 CES、CMEF 等国内外展会，持续跟进行业与 AI 前沿趋势。",
+        "个人 Agent 协作系统：基于 Harness Engineering 框架，将工作中高频复用的流程沉淀为标准化 Skills，覆盖文档生产、开发测试、知识管理、商业决策等场景，形成可自主迭代的工作流闭环。核心模块已开源，持续向开源社区输出实践经验。",
+        "通过 AI 工具独立完成产品宣传册、展会海报、Web 应用等数字产品的设计与制作。参加 CES、香港电子展、CMEF、AI 创新大会等国内外展会，持续跟进行业与 AI 前沿趋势。",
         "参与产品 AI 对话模块从需求定义到落地的工程侧建设，包含 Prompt 策略设计与上下文工程。受部门负责人邀请为团队开展 AI 实践分享。",
       ],
     } as Bilingual<string[]>,
@@ -364,11 +364,11 @@ export const EXPERIENCE = [
     location: "Hangzhou, China",
     highlights: {
       en: [
-        "Analyzed user behavior data and identified personalized scene recommendations as the core opportunity. Designed and shipped an end-to-end LLM-powered recommendation system — increasing average app session duration by 30% with measurable gains in engagement and retention.",
+        "Analyzed user data on lighting effects to uncover scene-based preference patterns, then designed and shipped an end-to-end LLM-powered smart recommendation system. Used AI to auto-generate lighting-effect code, replacing the manual development pipeline and expanding the effect library. Increased average app session duration by 30%.",
         "Took the GCS Surround Speaker from concept to global crowdfunding launch, aligning hardware, firmware, and marketing teams. Ranked #1 in Audio on Indiegogo, surpassing its funding goal by 755%.",
       ],
       zh: [
-        "AI 驱动产品创新：从用户行为数据中抽象出「智能场景推荐」的核心需求，完成基于 LLM 的端到端推荐系统设计与落地。基于数据特征，运用大模型进行深度表征学习，精准理解用户并生成个性化推荐。最终实现 App 平均使用时长提升 30%，用户活跃度与粘性显著提高。",
+        "AI 驱动产品创新：使用 LLM 分析用户灯效数据，挖掘场景偏好规律，设计并落地智能推荐系统；用 AI 自动生成灯效代码替代传统开发流程，拓展灯效库内容。App 平均使用时长提升 30%。",
         "主导从需求分析到产品商业化的全流程，协调跨职能团队高效协作，成功交付「GCS 环绕立体音响」项目。产品在预售阶段登顶 Indiegogo 众筹平台 Audio 类目第一，超额 755% 达成目标。",
       ],
     } as Bilingual<string[]>,
@@ -380,14 +380,14 @@ export const EXPERIENCE = [
     location: "Beijing, China",
     highlights: {
       en: [
-        "Built an intelligent conversational system for e-commerce using LLMs — supporting multi-turn dialog flows from product configuration to price comparison to checkout. Optimized knowledge base retrieval with RAG architecture. Reduced conversation steps by 25% and improved conversion rate by 30%.",
+        "Built an AI customer service system using LLMs, enabling multi-turn conversations that understand customer needs, automatically configure and compare solutions, and close the full consulting-to-ordering loop. Optimized knowledge base retrieval with RAG architecture. Reduced conversation steps by 25% and improved conversion rate by nearly 30%.",
+        "Owned the AI computing network portfolio, delivering AI Fabric network solutions to enterprise clients.",
         "Led delivery of 3 major data center projects — Heathrow Airport network upgrade, Siemens data center, and TSMC network upgrade — aligning engineering, procurement, and client stakeholders to meet deadlines. Total project value exceeded $20M.",
-        "Defined AI infrastructure and high-performance data center computing solutions for enterprise clients — from requirements analysis through solution design to client delivery.",
       ],
       zh: [
-        "基于大语言模型构建电商场景智能对话系统，支持「商品配置→价格对比→下单支付」多轮对话闭环，采用 RAG 架构优化知识库检索。内测阶段对话轮次减少 25%，转化率提升近 30%。",
+        "基于大语言模型构建 AI 客服系统，支持多轮对话，实现客户需求智能理解、方案自动配置与对比评估，完成从咨询到下单的服务闭环；采用 RAG 架构优化知识库检索。内测阶段对话轮次减少 25%，转化率提升近 30%。",
+        "聚焦 AI 智算网络方向，面向企业级客户提供 AI Fabric 网络解决方案。",
         "作为项目经理主导完成 3 个大型数据中心项目——英国希思罗机场网络升级、西门子数据中心、台积电网络升级——协调跨职能团队高效协作，确保项目按时交付，项目总金额超 2000 万美金。",
-        "面向企业级客户制定 AI 基础设施与高性能数据中心算力解决方案，覆盖需求分析、方案设计与客户交付。",
       ],
     } as Bilingual<string[]>,
   },
@@ -421,7 +421,7 @@ export const CREDENTIALS = {
       focus: { en: "Machine Learning & Neural Networks", zh: "机器学习与神经网络" } as Bilingual,
     },
     {
-      school: { en: "Cal State Fullerton", zh: "加州州立大学富尔顿分校" } as Bilingual,
+      school: { en: "Cal State Fullerton", zh: "加州州立大学富勒顿分校" } as Bilingual,
       degree: { en: "B.S. in Information Systems & Decision Science (Minor: CS)", zh: "信息系统与决策科学 学士（辅修：计算机科学）" } as Bilingual,
       period: "2014.08 – 2019.05",
       gpa: "3.55 / 4.0",
