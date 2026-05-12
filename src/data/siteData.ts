@@ -313,12 +313,12 @@ export const AI_STACK = [
   {
     category: "Think",
     description: { en: "Research & reasoning", zh: "研究与推理" } as Bilingual,
-    tools: ["Claude Max", "ChatGPT Plus", "Gemini Pro", "Grok", "NotebookLM", "Plaud"],
+    tools: ["Claude Max", "ChatGPT Pro", "Gemini Pro", "Grok", "NotebookLM", "Plaud"],
   },
   {
     category: "Build",
     description: { en: "Development & automation", zh: "开发与自动化" } as Bilingual,
-    tools: ["Claude Code", "Cursor", "Lovable", "Manus Pro", "Firecrawl"],
+    tools: ["Claude Code", "Codex", "Cursor", "Lovable", "Manus Pro", "Firecrawl"],
   },
   {
     category: "Create",
@@ -328,7 +328,7 @@ export const AI_STACK = [
   {
     category: "Ship",
     description: { en: "Deploy & deliver", zh: "部署与交付" } as Bilingual,
-    tools: ["Vercel", "GitHub"],
+    tools: ["Vercel", "GitHub", "Cloudflare", "Supabase"],
   },
 ];
 
