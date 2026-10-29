@@ -94,7 +94,7 @@ export default function Contact() {
                           <p className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
                             {link.platform}
                           </p>
-                          {'label' in link && link.label && (
+                          {'label' in link && typeof link.label === 'string' && link.label && (
                             <p className="text-xs text-muted-foreground">{link.label}</p>
                           )}
                         </div>
